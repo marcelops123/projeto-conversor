@@ -1,6 +1,4 @@
-import { Input } from 'antd'
 import { Component } from 'react/cjs/react.production.min';
-import 'antd/dist/antd.css';
 import './Conversor.css'
 
 export default class Conversor extends Component {
