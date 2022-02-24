@@ -1,0 +1,50 @@
+.linha {
+display: flex;
+margin-top: 98px;
+justify-content: space-around;
+text-align: center;
+color: black;
+
+}
+
+
+
+h1{
+
+    text-align: center;
+    color: black;
+}
+
+.App{
+    max-width: 900px;
+    margin: auto;
+    
+    
+
+}
+
+
+
+.sla{
+    margin-bottom: 0px;
+    padding-top: 1px;
+    
+    padding-bottom: 132px;
+  
+background: linear-gradient(90deg, rgb(24, 46, 95) 0%, rgb(82, 157, 218) 35%, rgb(24, 46, 95) 100%);
+}@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+  50% {
+         background-position: 100% 50%;
+     }
+      100% { 
+         background-position: 0% 50%;
+ 
+     }
+
+    
+ }
+
+
