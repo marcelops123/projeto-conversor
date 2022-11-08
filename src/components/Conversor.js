@@ -18,7 +18,7 @@ this.converter = this.converter.bind(this);
 
 converter() {
     let de_para = `${this.props.moedaA}_${this.props.moedaB}`;
-    let url = `https://free.currconv.com/api/v7/convert?q=${de_para}&compact=ultra&apiKey=8920f9033360dad45edb`
+    let url = `https://free.currconv.com/api/v7/convert?q=${de_para}&compact=ultra&apiKey=24ed80f2c5a4325ccfd2`
     fetch(url).then(res=>{
         return res.json()
     })
